@@ -1,0 +1,43 @@
+{
+  "title": "Arboreto letterario",
+  "home": {
+    "carouselPictures": [
+      {
+        "name": "ulivo",
+        "path": "statics/pictures/ulivo.jpg"
+      },
+      {
+        "name": "quercia",
+        "path": "statics/pictures/quercia.jpg"
+      },
+      {
+        "name": "vite",
+        "path": "statics/pictures/vite.jpg"
+      }
+    ],
+    "text": "Avast hardtack fire in the hole Sail ho hornswaggle nipperkin doubloon cackle fruit draught lass. Ye Buccaneer mutiny boom mizzenmast belaying pin mizzen loaded to the gunwalls measured fer yer chains transom. Measured fer yer chains run a shot across the bow rope's end jury mast Pieces of Eight Jack Ketch marooned belay cog sutler. Nipperkin quarterdeck dead men tell no tales yo-ho-ho matey hempen halter gun bilge water boom log. Barkadeer wench brigantine sheet avast chandler fluke long boat bowsprit topsail. Brigantine aft gabion lee plunder poop deck gunwalls grapple prow clipper. Broadside Sink me starboard bowsprit warp ahoy gabion lanyard heave to ye. Brethren of the Coast execution dock Admiral of the Black boatswain walk the plank rutters sheet gangway mizzenmast jib. Lanyard gun pink rum to go on account doubloon long boat Blimey Buccaneer scuppers.  "
+  },
+  "plants": {
+    "vite": {
+      "picture": "statics/pictures/vite.jpg",
+      "sources": [
+        {
+          "title": "Virgilio, Georgiche",
+          "subtitle": "bla bla bla bla bla",
+          "text": "Pillage broadside line overhaul spanker yardarm fathom ahoy lad topgallant. Chantey draft pirate Davy Jones' Locker chase guns pinnace hands pressgang scuttle rutters. Spanker matey Blimey gally hang the jib lateen sail reef sails nipperkin keelhaul heave to. "
+        },
+        {
+          "title": "Dante, Divina Commedia",
+          "subtitle": "blu blu blu blu blu blu",
+          "text": "Heave down fire in the hole reef sails avast hornswaggle Chain Shot me bilged on her anchor lanyard Shiver me timbers. Swab tender booty scuttle jib cable fire ship skysail sloop grog blossom. Take a caulk chase quarter port jib line smartly blow the man down heave down black jack. "
+        }
+      ]
+    },
+    "quercia": {
+      "picture": "statics/pictures/quercia.jpg"
+    },
+    "ulivo": {
+      "picture": "statics/pictures/ulivo.jpg"
+    }
+  }
+}
