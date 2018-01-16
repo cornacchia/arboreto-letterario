@@ -1,20 +1,6 @@
 {
   "title": "Arboreto letterario",
   "home": {
-    "carouselPictures": [
-      {
-        "name": "ulivo",
-        "path": "statics/pictures/ulivo.jpg"
-      },
-      {
-        "name": "quercia",
-        "path": "statics/pictures/quercia.jpg"
-      },
-      {
-        "name": "vite",
-        "path": "statics/pictures/vite.jpg"
-      }
-    ],
     "text": "Avast hardtack fire in the hole Sail ho hornswaggle nipperkin doubloon cackle fruit draught lass. Ye Buccaneer mutiny boom mizzenmast belaying pin mizzen loaded to the gunwalls measured fer yer chains transom. Measured fer yer chains run a shot across the bow rope's end jury mast Pieces of Eight Jack Ketch marooned belay cog sutler. Nipperkin quarterdeck dead men tell no tales yo-ho-ho matey hempen halter gun bilge water boom log. Barkadeer wench brigantine sheet avast chandler fluke long boat bowsprit topsail. Brigantine aft gabion lee plunder poop deck gunwalls grapple prow clipper. Broadside Sink me starboard bowsprit warp ahoy gabion lanyard heave to ye. Brethren of the Coast execution dock Admiral of the Black boatswain walk the plank rutters sheet gangway mizzenmast jib. Lanyard gun pink rum to go on account doubloon long boat Blimey Buccaneer scuppers.  "
   },
   "search": {
@@ -23,8 +9,16 @@
     "u001": "ulivo"
   },
   "plants": {
+    "backgroundImage": "statics/pictures/vite1.jpg",
     "vite": {
-      "picture": "statics/pictures/vite.jpg",
+      "carouselPictures": [
+        {
+          "path": "statics/pictures/vite1.jpg"
+        },
+        {
+          "path": "statics/pictures/vite2.jpg"
+        }
+      ],
       "sources": [
         {
           "title": "Virgilio, Georgiche",
@@ -39,10 +33,24 @@
       ]
     },
     "quercia": {
-      "picture": "statics/pictures/quercia.jpg"
+      "carouselPictures": [
+        {
+          "path": "statics/pictures/quercia1.jpg"
+        }
+      ]
     },
     "ulivo": {
-      "picture": "statics/pictures/ulivo.jpg"
+      "carouselPictures": [
+        {
+          "path": "statics/pictures/ulivo1.jpg"
+        },
+        {
+          "path": "statics/pictures/ulivo2.jpg"
+        },
+        {
+          "path": "statics/pictures/ulivo3.jpg"
+        }
+      ]
     }
   }
 }

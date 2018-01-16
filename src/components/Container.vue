@@ -2,26 +2,12 @@
   <q-layout>
     <q-toolbar slot="header" color="green">
       <q-btn flat @click="goHome">
-        <q-icon name="home"
-        />
+        <q-icon name="home" />
       </q-btn>
       <q-toolbar-title>
         {{ title }}
       </q-toolbar-title>
     </q-toolbar>
-    <q-input
-    id="searchBar"
-    placeholder="Cerca..."
-    v-model="search"
-    :after="[
-      {
-        icon: 'arrow_forward',
-        content: true,
-        handler: searchPlant
-      }
-    ]"
-    />
-
     <div id="main" class="column scroll overflow-hidden">
       <router-view />
     </div>
@@ -29,7 +15,7 @@
 </template>
 
 <script>
-import { QLayout, QToolbar, QToolbarTitle, QInput, QIcon, QBtn } from 'quasar'
+import { QLayout, QToolbar, QToolbarTitle, QIcon, QBtn } from 'quasar'
 import router from '../router'
 
 export default {
@@ -37,7 +23,6 @@ export default {
     QLayout,
     QToolbar,
     QToolbarTitle,
-    QInput,
     QIcon,
     QBtn
   },
@@ -48,15 +33,8 @@ export default {
     }
   },
   methods: {
-    searchPlant () {
-      let searchPlant = this.siteData.search[this.search]
-      if (searchPlant) {
-        router.replace({ path: '/plant', query: { name: searchPlant } })
-        return window.location.reload(true)
-      }
-    },
     goHome () {
-      router.replace({path: '/home'})
+      router.replace({ path: 'home' })
     }
   }
 }

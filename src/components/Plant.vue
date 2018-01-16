@@ -1,6 +1,15 @@
 <template>
   <div>
-    <img :src="picturePath" style="max-height: 500px; width: 100%;" />
+
+    <q-carousel arrows dots autoplay infinite style="width: 100%;">
+      <div slot="slide"
+        id="slides"
+        v-for="(picture, index) of carouselPictures"
+        :key="index"
+        class="bg-tertiary centered">
+          <img :src="picture.path" style="width: 100%; max-height: 500px;" />
+      </div>
+    </q-carousel>
 
     <q-list
      striped
@@ -13,28 +22,28 @@
         {{source.text}}
       </q-collapsible>
     </q-list>
+
   </div>
 </template>
 
 <script>
-import { QList, QCollapsible } from 'quasar'
+import { QList, QCollapsible, QCarousel } from 'quasar'
 
 export default {
   components: {
     QList,
-    QCollapsible
+    QCollapsible,
+    QCarousel
   },
   data () {
     const name = this.$route.query.name
-
     return {
-      picturePath: this.siteData.plants[name].picture,
+      carouselPictures: this.siteData.plants[name].carouselPictures,
       sources: this.siteData.plants[name].sources
     }
   }
 }
 </script>
 
-<style>
-
+<style lang="stylus">
 </style>
