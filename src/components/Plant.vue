@@ -3,10 +3,9 @@
 
     <q-carousel arrows dots autoplay infinite style="width: 100%;">
       <div slot="slide"
-        id="slides"
         v-for="(picture, index) of carouselPictures"
         :key="index"
-        class="bg-tertiary centered">
+        class="centered">
           <img :src="picture.path" style="width: 100%; max-height: 500px;" />
       </div>
     </q-carousel>
