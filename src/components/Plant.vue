@@ -19,7 +19,17 @@
       :key="index"
       :label="source.title"
       :sublabel="source.subtitle">
+      <div id="buttonRow" class="row">
+        <q-btn class="rowButton" color="primary" style="margin-right: 5px;">
+          <q-icon name="picture_as_pdf" /> Scarica PDF
+        </q-btn>
+        <q-btn class="rowButton" color="primary">
+          <q-icon name="audiotrack" /> Ascolta audio
+        </q-btn>
+        </div>
+        <div class="row">
         {{source.text}}
+        </div>
       </q-collapsible>
     </q-list>
 
@@ -27,13 +37,15 @@
 </template>
 
 <script>
-import { QList, QCollapsible, QCarousel } from 'quasar'
+import { QList, QCollapsible, QCarousel, QBtn, QIcon } from 'quasar'
 
 export default {
   components: {
     QList,
     QCollapsible,
-    QCarousel
+    QCarousel,
+    QBtn,
+    QIcon
   },
   data () {
     const name = this.$route.query.name
@@ -46,4 +58,9 @@ export default {
 </script>
 
 <style lang="stylus">
+  #buttonRow
+    align center
+    margin-bottom 10px
+  .rowButton
+    margin-right 5px
 </style>
