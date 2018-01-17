@@ -11,6 +11,7 @@
   "plants": {
     "backgroundImage": "statics/pictures/vite1.jpg",
     "vite": {
+      "title": "Vite",
       "carouselPictures": [
         {
           "path": "statics/pictures/vite1.jpg"
@@ -33,6 +34,7 @@
       ]
     },
     "quercia": {
+      "title": "Quercia",
       "carouselPictures": [
         {
           "path": "statics/pictures/quercia1.jpg"
@@ -40,6 +42,7 @@
       ]
     },
     "ulivo": {
+      "title": "Ulivo",
       "carouselPictures": [
         {
           "path": "statics/pictures/ulivo1.jpg"

@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    <h2 align="center">{{title}}</h2>
     <q-carousel arrows dots autoplay infinite style="width: 100%;">
       <div slot="slide"
         v-for="(picture, index) of carouselPictures"
@@ -11,8 +11,10 @@
     </q-carousel>
 
     <q-list
-     striped
+     separator
+     no-border
      style="margin: 20px;">
+      <q-list-header>Fonti</q-list-header>
       <q-collapsible
       v-for="(source, index) of sources"
       :key="index"
@@ -36,11 +38,12 @@
 </template>
 
 <script>
-import { QList, QCollapsible, QCarousel, QBtn, QIcon } from 'quasar'
+import { QList, QListHeader, QCollapsible, QCarousel, QBtn, QIcon } from 'quasar'
 
 export default {
   components: {
     QList,
+    QListHeader,
     QCollapsible,
     QCarousel,
     QBtn,
@@ -50,7 +53,8 @@ export default {
     const name = this.$route.query.name
     return {
       carouselPictures: this.siteData.plants[name].carouselPictures,
-      sources: this.siteData.plants[name].sources
+      sources: this.siteData.plants[name].sources,
+      title: this.siteData.plants[name].title
     }
   }
 }
