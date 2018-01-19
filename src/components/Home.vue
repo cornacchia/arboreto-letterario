@@ -13,7 +13,10 @@
     ]"
   />
   <div class="col-xs-12" style="margin: 20px;">
-    {{ homeText }}
+    <h1 align="center">{{ title }}</h1>
+    <h4 id="subtitle" align="center">{{ subtitle }}</h4>
+    <span v-html="homeText"></span>
+    <em>{{notes}}</em>
   </div>
 </div>
 </template>
@@ -28,7 +31,10 @@ export default {
   },
   data () {
     return {
+      title: this.siteData.home.title,
+      subtitle: this.siteData.home.subtitle,
       homeText: this.siteData.home.text,
+      notes: this.siteData.home.notes,
       search: ''
     }
   },
@@ -43,6 +49,7 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="stylus">
+  #subtitle
+    font-style italic
 </style>

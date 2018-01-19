@@ -29,7 +29,7 @@
         </q-btn>
         </div>
         <div class="row">
-        {{source.text}}
+        <span v-html="source.text"></span>
         </div>
       </q-collapsible>
     </q-list>
