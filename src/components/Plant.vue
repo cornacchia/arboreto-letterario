@@ -6,7 +6,7 @@
         v-for="(picture, index) of carouselPictures"
         :key="index"
         class="centered">
-          <img :src="picture.path" style="width: 100%; max-height: 500px;" />
+          <img class="picture" :src="picture.path" />
       </div>
     </q-carousel>
 
@@ -66,4 +66,6 @@ export default {
     margin-bottom 10px
   .rowButton
     margin-right 5px
+  .picture
+    width 100%
 </style>
