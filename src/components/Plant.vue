@@ -29,7 +29,7 @@
         </q-btn>
         </div>
         <div class="row">
-        <span v-html="source.text"></span>
+        <span class="sourceText" v-html="source.text"></span>
         </div>
       </q-collapsible>
     </q-list>
@@ -68,4 +68,6 @@ export default {
     margin-right 5px
   .picture
     width 100%
+  .sourceText
+    font-style italic
 </style>
