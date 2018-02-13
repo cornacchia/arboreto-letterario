@@ -4,7 +4,21 @@
     "title": "L'arboreto letterario",
     "subtitle": "Da Virgilio a Mario Rigoni Stern: un viaggio attraverso natura, letteratura e storia.",
     "text": "<p> L’arboreto letterario nasce dall’idea di collegare natura e letteratura con un vincolo concreto e tangibile. </p> <p> L’idea che sta alla base di questa ricerca è quella di affiancare alla raccolta di documenti e testi che presentano riferimenti alle piante, una proposta di una possibile applicazione pratica. Teorizzare quindi la creazione di un arboreto letterario didattico, che possa collocare questi componimenti nella natura e associarli alle piante. </p> <p> Grazie a questa parte di applicazione concreta, possiamo dare delle basi più solide alla ricerca e proporre sviluppi interessanti. </p> <p> Per ogni pianta si vuole offrire un insieme di opere letterarie che spazino dalla letteratura e mitologia greca, passando per quella latina, per la parte biblica e più in generale sacra, per il romanzo cavalleresco, i poeti dell’800 fino ad arrivare ai giorni nostri. </p> <p> L'elemento centrale del progetto saranno le piante, e ciascuna sarà presa come punto di partenza unico e centrale. In questo modo si potrà mettere in evidenza come la pianta diventi fonte di ispirazione per vari poeti, che veicolano il suo significato in epoche diverse e lo declinano in base alla propria sensibilità. </p> <p> Troppo spesso anche questa lettura delle piante nei testi letterari viene fatta mettendo al centro l’autore, creando dei parchi in cui le piante sono scelte attraverso le sue opere e sono così messe in secondo piano, per dare spazio solamente al punto di vista dell’autore. </p> <p> L'intento di questo progetto è dunque mettere al centro l’aspetto della natura e provare a dare una visione, anche se parziale, dello sviluppo della stessa nella storia della letteratura, cercando di ottenere una prospettiva più ampia e completa. L’arbusto diventa così un prisma di diverse facce. Ognuna di queste viene descritta in maniera originale da un autore in un determinato periodo di tempo. Assieme riescono a formare un’immagine composita della pianta e il risultato finale fornisce complessità e profondità, quasi in una visione tridimensionale. </p> <p> Il motivo per cui è stata scelta la denominazione di arboreto letterario è duplice: innanzitutto ci si voleva scostare da una definizione di Parco Letterario che, in questi anni, ha subito una ri-semantizzazione e tende ad includere, nella sua definizione, non solamente il mondo vegetale, ma anche chiese, campanili, statue. Parco letterario ha sempre più il valore di un luogo ibrido, in cui l’opera dell’uomo e la natura si fondono assieme. </p> <p> L’Arboreto, invece, mette al centro unicamente la pianta, senza altre contaminazioni, permettendo così di concentrare la propria attenzione solamente su di essa, senza distrazioni o variazioni di alcun tipo. </p> <p> La seconda motivazione emerge nel sottotitolo di questa ricerca: Da Virgilio a Mario Rigoni Stern: un viaggio tra natura, letteratura e storia. </p> <p> Questi autori sono due esempi di come ci si possa approcciare ad una pianta in maniera scientifica e distaccata con una base di conoscenze approfondite e mettendola al centro del componimento. Lo stesso concetto di Arboreto è stato ripreso dal libro dell’autore di Asiago che titola una delle sue opere Arboreto Selvatico[1]. </p> <p> L'obiettivo di questa ricerca è quindi tentare di creare una narrazione che, con l'aiuto di queste due guide, ci possa portare a riscoprire la natura attraverso la letteratura. </p>",
-    "notes": "[1] Stern, 2008: p.81-197."
+    "notes": "[1] Stern, 2008: p.81-197.",
+    "carouselPictures": [
+        {
+          "path": "statics/pictures/home1.jpg"
+        },
+        {
+          "path": "statics/pictures/home2.jpg"
+        },
+        {
+          "path": "statics/pictures/home3.jpg"
+        },
+        {
+          "path": "statics/pictures/home4.jpg"
+        }
+    ]
   },
   "search": {
     "v001": "vite",
@@ -21,6 +35,12 @@
         },
         {
           "path": "statics/pictures/vite2.jpg"
+        },
+        {
+          "path": "statics/pictures/vite3.jpg"
+        },
+        {
+          "path": "statics/pictures/vite4.jpg"
         }
       ],
       "sources": [
