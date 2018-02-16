@@ -39,6 +39,7 @@
 
 <script>
 import { QList, QListHeader, QCollapsible, QCarousel, QBtn, QIcon } from 'quasar'
+import siteData from '../data'
 
 export default {
   components: {
@@ -49,12 +50,13 @@ export default {
     QBtn,
     QIcon
   },
+  props: ['name'],
   data () {
-    const name = this.$route.query.name
+    const name = this.$route.params.name
     return {
-      carouselPictures: this.siteData.plants[name].carouselPictures,
-      sources: this.siteData.plants[name].sources,
-      title: this.siteData.plants[name].title
+      carouselPictures: siteData.plants[name].carouselPictures,
+      sources: siteData.plants[name].sources,
+      title: siteData.plants[name].title
     }
   }
 }

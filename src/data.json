@@ -7,40 +7,40 @@
     "notes": "[1] Stern, 2008: p.81-197.",
     "carouselPictures": [
         {
-          "path": "statics/pictures/home1.jpg"
+          "path": "/statics/pictures/home1.jpg"
         },
         {
-          "path": "statics/pictures/home2.jpg"
+          "path": "/statics/pictures/home2.jpg"
         },
         {
-          "path": "statics/pictures/home3.jpg"
+          "path": "/statics/pictures/home3.jpg"
         },
         {
-          "path": "statics/pictures/home4.jpg"
+          "path": "/statics/pictures/home4.jpg"
         }
     ]
   },
   "search": {
-    "v001": "vite",
-    "q001": "quercia",
-    "u001": "ulivo"
+    "111": "vite",
+    "222": "quercia",
+    "333": "ulivo"
   },
   "plants": {
-    "backgroundImage": "statics/pictures/vite1.jpg",
+    "backgroundImage": "/statics/pictures/vite1.jpg",
     "vite": {
       "title": "Vite",
       "carouselPictures": [
         {
-          "path": "statics/pictures/vite1.jpg"
+          "path": "/statics/pictures/vite1.jpg"
         },
         {
-          "path": "statics/pictures/vite2.jpg"
+          "path": "/statics/pictures/vite2.jpg"
         },
         {
-          "path": "statics/pictures/vite3.jpg"
+          "path": "/statics/pictures/vite3.jpg"
         },
         {
-          "path": "statics/pictures/vite4.jpg"
+          "path": "/statics/pictures/vite4.jpg"
         }
       ],
       "sources": [
@@ -210,7 +210,7 @@
       "title": "Quercia",
       "carouselPictures": [
         {
-          "path": "statics/pictures/quercia1.jpg"
+          "path": "/statics/pictures/quercia1.jpg"
         }
       ]
     },
@@ -218,13 +218,13 @@
       "title": "Ulivo",
       "carouselPictures": [
         {
-          "path": "statics/pictures/ulivo1.jpg"
+          "path": "/statics/pictures/ulivo1.jpg"
         },
         {
-          "path": "statics/pictures/ulivo2.jpg"
+          "path": "/statics/pictures/ulivo2.jpg"
         },
         {
-          "path": "statics/pictures/ulivo3.jpg"
+          "path": "/statics/pictures/ulivo3.jpg"
         }
       ],
       "sources": [

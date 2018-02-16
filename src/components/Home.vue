@@ -1,17 +1,5 @@
 <template>
 <div>
-  <q-input
-    id="searchBar"
-    placeholder="Cerca..."
-    v-model="search"
-    :after="[
-      {
-        icon: 'arrow_forward',
-        content: true,
-        handler: searchPlant
-      }
-    ]"
-  />
   <q-carousel arrows dots autoplay infinite style="width: 100%;">
     <div slot="slide"
       v-for="(picture, index) of carouselPictures"
@@ -30,29 +18,29 @@
 </template>
 
 <script>
-import { QInput, QCarousel } from 'quasar'
+import { QCarousel } from 'quasar'
 import router from '../router'
+import siteData from '../data'
 
 export default {
   components: {
-    QInput,
     QCarousel
   },
   data () {
     return {
-      carouselPictures: this.siteData.home.carouselPictures,
-      title: this.siteData.home.title,
-      subtitle: this.siteData.home.subtitle,
-      homeText: this.siteData.home.text,
-      notes: this.siteData.home.notes,
+      carouselPictures: siteData.home.carouselPictures,
+      title: siteData.home.title,
+      subtitle: siteData.home.subtitle,
+      homeText: siteData.home.text,
+      notes: siteData.home.notes,
       search: ''
     }
   },
   methods: {
     searchPlant () {
-      let searchPlant = this.siteData.search[this.search]
+      let searchPlant = siteData.search[this.search]
       if (searchPlant) {
-        router.replace({ path: 'plant', query: { name: searchPlant } })
+        router.push({ path: '/plant/' + searchPlant })
       }
     }
   }
